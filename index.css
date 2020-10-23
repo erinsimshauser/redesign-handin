@@ -1,8 +1,12 @@
 body {
     font-family: 'Raleway', sans-serif;
     padding-top: 2%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+a {
+    color: #1F774B;
 }
 
 h1 {
@@ -13,9 +17,6 @@ h1 {
 
  h2 {
      font-size: 18px;
-     padding-top: 2%;
-     padding-left: 15%;
-     padding-right: 15%;
      font-family: 'Poppins', sans-serif;
  }
 
@@ -36,12 +37,23 @@ li {
     padding-right: 10px;
 }
 
-p {
-    padding: 8px;
+.section {
+    background-color: #D8E5DE;
+    padding: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
-.section {
-    background-color: #9CC8AE;
+.section a{
+    color: #115332;
+}
+
+.section-plain {
+    border: 1px solid #7CBC9C;
+    background-color: #FFFFFF;
+    padding: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 img.icon {
@@ -50,7 +62,9 @@ img.icon {
 }
 
 img.sketch {
-    max-width: 800px;
+    max-width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 img.story {
@@ -65,9 +79,23 @@ img.persona {
 
 .row {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .column {
-  padding: 10px;
   flex: 50%;
+}
+
+.guide {
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@media (max-width: 900px){
+    .row{
+        flex-wrap: wrap;
+    }
+
 }
