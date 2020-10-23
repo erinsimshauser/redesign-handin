@@ -1,1 +1,73 @@
-/* Put your style information here! */
+body {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h1 {
+    font-size: 28px;
+    padding-top: 2%;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ h2 {
+     font-size: 18px;
+     padding-top: 2%;
+     padding-left: 15%;
+     padding-right: 15%;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ h3 {
+     color: #2A915D;
+     font-size: 38px;
+     padding-top: 2%;
+     font-family: 'Poppins', sans-serif;
+  }
+
+img {
+    max-width: 100%;
+    max-height:100%;
+}
+
+li {
+    padding: 5px;
+    padding-right: 10px;
+}
+
+p {
+    padding: 8px;
+}
+
+.section {
+    background-color: #9CC8AE;
+}
+
+img.icon {
+  max-height: 300px;
+  max-width: 100px;
+}
+
+img.sketch {
+    max-width: 800px;
+}
+
+img.story {
+    max-width: 1200px;
+    max-height: 5000px;
+}
+
+img.persona {
+    padding: 10px;
+    max-width: 500px:
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  padding: 10px;
+  flex: 50%;
+}
