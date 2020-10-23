@@ -77,6 +77,12 @@ img.persona {
     max-width: 500px:
 }
 
+.row-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .row {
   display: flex;
   justify-content: space-evenly;
@@ -87,11 +93,22 @@ img.persona {
   flex: 50%;
 }
 
+.column-proto {
+    flex: 2 1;
+}
+
+.guide2{
+    width: 95%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .guide {
     width: 70%;
     padding-left: 15%;
     padding-right: 15%;
 }
+
 
 @media (max-width: 900px){
     .row{
